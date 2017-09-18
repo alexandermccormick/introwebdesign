@@ -142,3 +142,10 @@ body pre code.smallText {
 .left-offset {
   margin-left: 24px;
 }
+
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .container *{
+    text-align: center;
+  }
+}
